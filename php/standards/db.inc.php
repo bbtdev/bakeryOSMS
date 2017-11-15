@@ -1,6 +1,6 @@
 <?php
     try {
-        $pdo = new PDO('mysql:hostname=	sql204.epizy.com;dbname=epiz_21049353_alcdb', 'epiz_21049353', 'jZ8v8iyvfdKB');
+        $pdo = new PDO();
         $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         $pdo->exec('SET NAMES "utf8"');
     }
